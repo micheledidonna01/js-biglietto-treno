@@ -1,10 +1,15 @@
 let km = prompt('inserisci i km da percorrere');
 let age = prompt('inserisci l\'età');
 let cost;
-if((age > 0) && (age<18)){
-    cost = ((km * 0.21) * 20) / 100;
+let discount;
+if((age > 0) && (age < 18)){
+    cost = (km * 0.21);
+    discount = (cost * 20) / 100;
+    cost = cost - discount;
 }else if(age >= 65){
-    cost = ((km * 0.21) * 40) / 100;
+    cost = (km * 0.21);
+    discount = (cost * 40) / 100;
+    cost = cost - discount;
 }else{
     cost = (km * 0.21);
 }
