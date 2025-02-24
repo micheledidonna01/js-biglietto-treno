@@ -11,4 +11,5 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
     - il costo del biglietto sarà calcolato moltiplicando i km con 0,21(costo al km) applicando uno sconto del 40%
 - altrimenti
     - il costo del biglietto sarà calcolato moltiplicando i km con 0,21(costo al km) 
+- arrotondare il costo del biglietto tenendo in considerazione solo le prime 2 cifre dopo la virgola
 - stampare il costo del biglietto del passegero
