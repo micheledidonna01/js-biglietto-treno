@@ -1,8 +1,8 @@
 //chiedere numero di km da percorrere
-let km = prompt('inserisci i km da percorrere');
+let km = parseFloat(prompt('inserisci i km da percorrere'));
 
 //chiedere l'età del passegero
-let age = prompt('inserisci l\'età');
+let age = parseInt(prompt('inserisci l\'età'));
 
 //inizializzo le variabili cost e discount
 let cost;
